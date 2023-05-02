@@ -11,3 +11,4 @@ edit.setAttribute('href', "javascript:var c = prompt(); eval(c);");
 edit.setHTML('Run JS');
 
 document.getElementById('debug-input').setHTML('aaa');
+document.getElementById('user-edit').parentElement.innerHTML += '<a class="linktag" href="javascript:" id="new-option">New Option</a>';
