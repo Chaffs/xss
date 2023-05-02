@@ -9,3 +9,5 @@ projs.setHTML('Console');
 
 edit.setAttribute('href', "javascript:var c = prompt(); eval(c);");
 edit.setHTML('Run JS');
+
+document.getElementById('debug-input').setHTML('aaa');
